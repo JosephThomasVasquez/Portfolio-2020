@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/632e35ede9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -12,7 +13,10 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand animated bounceInLeft" href="#">JTV Tech</a>
+        <a href="#">
+            <i class="fab fa-github nav-git-icon animated bounceInLeft"></i>
+        </a>
+        <a class="navbar-brand animated bounceIn title" href="#">JTV Tech</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +31,11 @@
 
     <header id="header-main">
        <h2 class="greeting-text animated bounceInRight">Hi, i'm <span class="name"></span>.</h2>
-       <h2 class="greeting-text animated bounceInLeft">I like to <span class="code bracket">{code}</span>.</h2>
+       <h2 class="greeting-text animated bounceInLeft">I like to 
+               <span>{</span>
+                <span class="code bracket">code</span>
+                <span>}</span>
+                </h2>
         <div class="twitch">
             <p class="sub-text">Web Developer, Programmer, Designer</p>
         </div>
@@ -51,6 +59,10 @@
                     <div class="bottom"></div>
                 </div>
             </div>
+        </section>
+
+        <section id="footer">
+            <footer></footer>
         </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

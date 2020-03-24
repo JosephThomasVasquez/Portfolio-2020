@@ -5,28 +5,58 @@
 
     --font-raleway: 'Raleway', sans-serif;
     --font-code: monospace;
+    --font-primary-color: white;
 
-    --primary-color: rgb(0, 46, 83);
+    --primary-color: rgb(0, 14, 48);
+    --secondary-color: rgb(0, 255, 213);
+    --teriary-color: rgb(61, 149, 184);
+    /* --primary-color: rgb(0, 46, 83);
     --secondary-color: aqua;
-    --teriary-color: aqua;
+    --teriary-color: rgb(61, 139, 184); */
 
 }
 
+/* Navbar */
+
 .navbar {
-    background-color: rgb(0, 46, 83);
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 2%;
+}
+
+.nav-git-icon {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: var(--secondary-color);
+}
+
+.title {
+    color: var(--secondary-color);
+    font-size: 2rem;
 }
 
 .nav-link {
     text-align: right;
     font-size: 1.5rem;
-    margin: 0 20px;
+    margin: 10px 20px;
+    transition: all 0.5s ease;
 }
+
+.nav-link:hover {
+    margin-top: 1%;
+    transition: all 0.5s ease;
+    color: var(--secondary-color);
+}
+
+/* Header */
 
 #header-main {
     text-align: center;
     font-size: 2rem;
-    color: white;
-    background-color: rgb(0, 46, 83);
+    color: var(--font-primary-color);
+    background: rgb(0,5,17); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(0,5,17) 0%, rgb(0,14,48) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(0,5,17) 0%,rgb(0,14,48) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(0,5,17) 0%,rgb(0,14,48) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: 20% 0;
     margin: 0;
 }
@@ -44,12 +74,12 @@
     padding: 0;
     font-size: 2rem;
     font-weight: 400;
-    color: aqua;
+    color: var(--secondary-color);
     transition: all 0.5s ease;
 }
 
 .name:hover {
-    color: aqua;
+    color: var(--secondary-color);
     background-color: rgba(0,0,0, 0.25);
     transition: all 0.5s ease;
 }
@@ -67,6 +97,12 @@
     transition: all 0.5s ease;
 }
 
+.code:hover {
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.5s ease;
+    font-size: 2.5rem;
+    margin: 0 1%;
+}
 
 .bracket:hover {
     color: rgba(255, 255, 255, 1);
@@ -74,21 +110,19 @@
     font-size: 2.5rem;
 }
 
+/* Sections */
+
 .skills {
     width: 100%;
     padding: 10% 0;
     margin: auto;
+    background-color: white;
 
 }
 
 .hexagon {
     width: 100%;
     margin: auto;
-
-    
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .hexagon .top {
@@ -132,5 +166,5 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: var(--primary-color);
+    background: rgb(0,5,17);
 }
