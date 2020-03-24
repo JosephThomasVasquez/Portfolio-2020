@@ -27,6 +27,11 @@
     font-size: 2rem;
     margin: 0 10px;
     color: var(--secondary-color);
+
+    animation-name: spinner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 .title {
