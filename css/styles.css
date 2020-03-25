@@ -178,6 +178,7 @@
     font-size: 2rem;
     color: var(--primary-color);
     padding: 25vh 0 50vh 0;
+    width: 100%;
     margin: 0;
     height: 100vh;
     background-color: rgb(215, 255, 255);
@@ -190,7 +191,6 @@
     text-align: center;
 }
 
-/* Skills Section */
 .skills {
     width: 100%;
     padding: 1% 0;
@@ -232,12 +232,14 @@
 }
 
 .skill-text {
+    font-weight: bold;
     width: 100%;
     padding: 1% auto;
     margin: 0 auto 1% auto;
 }
 
 .skill-p {
+    font-size: 1.5vw;
     width: 100%;
     padding: 8%;
     margin: 1% 10%;
@@ -246,10 +248,30 @@
 /* Work Section */
 
 #work {
-    background-color: var(--primary-color);
+
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    padding: 25vh 0 50vh 0;
     width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.projects-h1 {
+    color: var(--secondary-color);
+    width: 100%;
+    padding: 1vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-project {
+    background-color: var(--teriary-color);
+    width: auto;
+    height: 300px;
     margin: auto;
-    padding: 10%;
 }
 
 .twitch {
