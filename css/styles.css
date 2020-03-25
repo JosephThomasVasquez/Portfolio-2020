@@ -155,10 +155,16 @@
     margin: auto;
 }
 
+.skill-h1 {
+    width: 50%;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
 .skill-text {
     width: 100%;
     padding: 1% auto;
-    margin: 1% auto;
+    margin: 0 auto 1% auto;
 }
 
 .skill-p {
