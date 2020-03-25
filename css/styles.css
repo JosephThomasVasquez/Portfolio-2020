@@ -72,7 +72,7 @@
 .greeting-text {
 
     font-family: var(--font-raleway);
-    font-size: 2rem;
+    font-size: 4vw;
     font-weight: lighter;
     padding: 0;
     margin: 0;
@@ -80,7 +80,7 @@
 
 .name {
     padding: 0;
-    font-size: 2rem;
+    font-size: 4vw;
     font-weight: 400;
     color: var(--secondary-color);
     transition: all 0.5s ease;
@@ -93,29 +93,39 @@
 }
 
 .sub-text {
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: 200;
 }
 
 .code {
     font-family: var(--font-code);
-    font-size: 2rem;
+    font-size: 3vw;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.75);
     transition: all 0.5s ease;
+    vertical-align: middle;
 }
 
 .code:hover {
-    color: rgba(255, 255, 255, 1);
+    color: var(--secondary-color);
     transition: all 0.5s ease;
-    font-size: 2.5rem;
+    font-size: 3.5vw;
     margin: 0 1%;
 }
 
-.bracket:hover {
-    color: rgba(255, 255, 255, 1);
+.bracket {
+    font-family: var(--font-code);
+    font-size: 3vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.25);
     transition: all 0.5s ease;
-    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+.bracket:hover {
+    color: var(--secondary-color);
+    transition: all 0.5s ease;
+    font-size: 3.5vw;
 }
 
 .btn-explore {
@@ -127,17 +137,24 @@
     display: inline-block;
     font-size: 1.5rem;
     line-height: 2.9rem;
+    width: 120px;
+    border-bottom: 2px solid white;
+    border-radius: 15px;
 }
 
 .fas, .fa-arrow-circle-down {
     font-size: 3rem;
-    margin: 0 10px;
+    margin: 20px 10px;
     color: var(--secondary-color);
 
     animation-name: spinner;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+}
+
+.fa-arrow-circle-down:hover {
+    color: white;
 }
 
 /* Sections */

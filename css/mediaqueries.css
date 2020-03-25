@@ -1,7 +1,42 @@
 
 /* iphone 5 Resolution */
 @media screen and (max-width: 600px) {
+
+    #header-main {
+        padding: 10vh 0;
+        margin: 0;
+        height: 100vh;
+    }
     
+    .greeting-text {
+        font-size: 5vw;
+    }
+    
+    .name {
+        font-size: 5vw;
+    }
+    
+    .sub-text {
+        font-size: 2vw;
+    }
+    
+    .code {    
+        font-size: 4vw;
+    }
+    
+    .code:hover {
+        font-size: 5vw;
+    }
+    
+    .bracket {
+        font-size: 5vw;
+    }
+    
+    .bracket:hover {
+        font-size: 5vw;
+    }
+    
+
     body {
         overflow: auto;
     }
