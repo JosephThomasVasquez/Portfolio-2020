@@ -118,17 +118,18 @@
 
 /* Sections */
 
+/* Skills Section */
 .skills {
     width: 100%;
     padding: 10% 0;
     margin: auto;
-    background-color: white;
+    background-color: rgb(191, 255, 255);
 
 }
 
 .hexagon {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .hexagon .top {
@@ -156,14 +157,23 @@
 
 .skill-text {
     width: 100%;
-    padding: 2% auto;
-    margin: 1%  auto;
+    padding: 1% auto;
+    margin: 1% auto;
 }
 
 .skill-p {
     width: 100%;
     padding: 5%;
-    margin: 1% auto;
+    margin: 1% 10%;
+}
+
+/* Work Section */
+
+#work {
+    background-color: var(--primary-color);
+    width: 100%;
+    margin: auto;
+    padding: 10%;
 }
 
 .twitch {
@@ -183,6 +193,6 @@
 body {
     padding: 0;
     margin: 0;
-    
     background: rgb(0,5,17);
+    font-family: var(--font-raleway);
 }
