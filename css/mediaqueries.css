@@ -2,6 +2,10 @@
 /* iphone 5 Resolution */
 @media screen and (max-width: 600px) {
     
+    body {
+        overflow: auto;
+    }
+
     .hexagon {
       
     }
@@ -11,6 +15,10 @@
 /* iPad Resolution */
 @media screen and (max-width: 1024px) {
     
+    body {
+        overflow: auto;
+    }
+
     .hexagon {
       
     }

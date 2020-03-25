@@ -154,6 +154,18 @@
     margin: auto;
 }
 
+.skill-text {
+    width: 100%;
+    padding: 2% auto;
+    margin: 1%  auto;
+}
+
+.skill-p {
+    width: 100%;
+    padding: 5%;
+    margin: 1% auto;
+}
+
 .twitch {
     animation-name: floater;
     animation-duration: 2s;
@@ -171,6 +183,6 @@
 body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    
     background: rgb(0,5,17);
 }
