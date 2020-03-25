@@ -274,6 +274,47 @@
     margin: auto;
 }
 
+#contact {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    padding: 25vh 0 50vh 0;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--teriary-color);
+}
+
+.contact-h1 {
+    width: 100%;
+    padding: 1vh;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+input, textarea, .btn-submit {
+    width: 100%;
+    margin: auto 30vw;
+}
+
+.btn-submit {
+    width: 200px;
+    margin: auto;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-submit:hover {
+    width: 200px;
+    margin: auto;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+}
+
 .twitch {
     animation-name: floater;
     animation-duration: 2s;
