@@ -17,6 +17,7 @@
 
 }
 
+
 /* Navbar */
 
 .navbar {
@@ -63,8 +64,9 @@
     background: -moz-linear-gradient(top, rgb(0,5,17) 0%, rgb(0,14,48) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgb(0,5,17) 0%,rgb(0,14,48) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgb(0,5,17) 0%,rgb(0,14,48) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    padding: 20% 0;
+    padding: 35vh 0;
     margin: 0;
+    height: 100vh;
 }
 
 .greeting-text {
@@ -116,6 +118,28 @@
     font-size: 2.5rem;
 }
 
+.btn-explore {
+    width: 200px;
+    height: 60px;
+}
+
+.explore-text {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 2.9rem;
+}
+
+.fas, .fa-arrow-circle-down {
+    font-size: 3rem;
+    margin: 0 10px;
+    color: var(--secondary-color);
+
+    animation-name: spinner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
 /* Sections */
 
 /* Skills Section */
@@ -123,7 +147,7 @@
     width: 100%;
     padding: 10% 0;
     margin: auto;
-    background-color: rgb(191, 255, 255);
+    background-color: rgb(215, 255, 255);
 
 }
 

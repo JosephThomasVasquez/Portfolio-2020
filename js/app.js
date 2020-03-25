@@ -16,10 +16,12 @@ function insertLetter() {
     }
 }
 
-// codeBracket.forEach(function (bracket) {
-//     bracket.addEventListener('mouseover', function () {
+$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+	
+	var position = $($(this).attr("href")).offset().top;
 
-//         bracket.classList.toggle('bracket');
-        
-//     })
-// });
+	$("body, html").animate({
+		scrollTop: position
+	}, 2000 );
+});
