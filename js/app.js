@@ -23,5 +23,5 @@ $("a[href^='#']").click(function(e) {
 
 	$("body, html").animate({
 		scrollTop: position
-	}, 2000 );
+	}, 1000 );
 });
