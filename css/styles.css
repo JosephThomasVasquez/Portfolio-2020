@@ -267,6 +267,24 @@ html {
     margin: 1% 10%;
 }
 
+.skill-heading {
+    font-weight: 600;
+    background-color: var(--teriary-color);
+    color: white;
+    width: 100%;
+    padding: 2% 0;
+}
+
+.skills-bg {
+    background-color: rgba(61, 149, 184, 0.1);
+}
+
+.skill-tech {
+    border: 1px solid rgba(61, 149, 184, 0.25);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 2% 0;
+}
 /* Work Section */
 
 #work {
