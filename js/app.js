@@ -16,6 +16,7 @@ function insertLetter() {
     }
 }
 
+// Smooth scrolling function
 $("a[href^='#']").click(function(e) {
 	e.preventDefault();
 	
