@@ -25,7 +25,7 @@ html {
 }
 
 
-/* Navbar */
+/* Navbar ======================================================================================== */
 
 .navbar {
     background-color: var(--primary-2-color);
@@ -191,7 +191,7 @@ html {
     transition: all 0.5s ease;
 }
 
-/* Sections */
+/* Sections ===================================================================================== */
 
 /* About Section */
 
@@ -285,7 +285,75 @@ html {
     font-size: 1rem;
     padding: 2% 0;
 }
+
 /* Work Section */
+
+/* PROJECTS - Grid */
+.grid-projects {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-template-rows: 50% 100px 4;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    grid-column-start: 2 col1-start;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-item-1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.grid-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.grid-item-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.grid-item-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.grid-item-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.grid-item-6 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.grid-item-7 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.twitch {
+    animation-name: floater;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
 #work {
     text-align: center;
@@ -311,12 +379,11 @@ html {
     margin: 0;
 }
 .img-project {
-    width: 90%;
-    padding: 0;
-    height: 30vh;
-    margin: 0;
+    width: 100%;
     border-radius: 20px;
 }
+
+/* Contact */
 
 #contact {
     text-align: center;
@@ -357,13 +424,6 @@ input, textarea, .btn-submit {
     color: var(--primary-color);
     border: none;
     border-radius: 5px;
-}
-
-.twitch {
-    animation-name: floater;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .fader {
