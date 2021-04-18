@@ -311,12 +311,19 @@ html {
   transition: opacity 1s ease;
 }
 
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
 .project-links {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
 }
 
 .grid-item-1:hover .overlay-item,
@@ -331,9 +338,9 @@ html {
   position: absolute;
   top: 0;
   background: linear-gradient(
-      to right,
-      rgba(0, 255, 213, 0.1),
-      rgba(61, 149, 184, 0.25)
+      to bottom,
+      rgba(61, 149, 184, 0.5),
+      rgba(0, 14, 48, 1)
     )
     no-repeat center;
   opacity: 1;
@@ -352,7 +359,8 @@ html {
     rgba(61, 149, 184, 0)
   );
   border-radius: 10px;
-  transition: all 1s ease;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .grid-item-1 {
