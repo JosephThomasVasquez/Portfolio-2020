@@ -305,7 +305,10 @@ html {
 }
 
 .overlay-item {
-  display: none;
+  display: block;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 1s ease;
 }
 
 .project-links {
@@ -333,6 +336,23 @@ html {
       rgba(61, 149, 184, 0.25)
     )
     no-repeat center;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6 {
+  background: linear-gradient(
+    to right,
+    rgba(0, 255, 213, 0),
+    rgba(61, 149, 184, 0)
+  );
+  border-radius: 10px;
+  transition: all 1s ease;
 }
 
 .grid-item-1 {
