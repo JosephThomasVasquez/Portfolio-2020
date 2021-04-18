@@ -1,111 +1,126 @@
-
 /* iphone 5 Resolution */
 @media screen and (max-width: 600px) {
+  .title {
+    color: var(--secondary-color);
+    font-size: 1rem !important;
+    margin-left: 5%;
+  }
 
-    .title {
-        color: var(--secondary-color);
-        font-size: 1rem !important;
-        margin-left: 5%;
-    }
+  #header-main {
+    padding: 10vh 0;
+    margin: 0;
+    height: 100vh;
+  }
 
-    #header-main {
-        padding: 10vh 0;
-        margin: 0;
-        height: 100vh;
-    }
+  .overlay {
+    position: absolute;
+    width: 100vw;
+    height: 125% !important;
+    margin: 0;
+    opacity: 50%;
+    z-index: -1;
+    background-image: url("../images/JTV00342.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 
-    .overlay {
-        position: absolute;
-        width: 100vw;
-        height: 125% !important;
-        margin: 0;
-        opacity: 50%;
-        z-index: -1;
-        background-image: url('../images/JTV00342.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .greeting-text,
-    .name,
-    .code:hover,
-    .bracket,
-    .bracket:hover {
-        font-size: 5vw !important;
-    }
-    
-    .sub-text {
-        font-size: 2vw !important;
-    }
-    
-    .code {    
-        font-size: 4vw !important;
-    }
-    
+  .greeting-text,
+  .name,
+  .code:hover,
+  .bracket,
+  .bracket:hover {
+    font-size: 5vw !important;
+  }
 
-    #about, #work, #contact {
-        height: auto !important;
-    }
+  .sub-text {
+    font-size: 2vw !important;
+  }
 
-    body {
-        overflow: auto;
-    }
+  .code {
+    font-size: 4vw !important;
+  }
 
-    .about-icon {
-        font-size: 1.5rem !important;
-        vertical-align: top !important;
-        display: inline !important;
-        color: white;
-        text-align: center;
-        transition: all 0.5s ease;
-    }
+  #about,
+  #work,
+  #contact {
+    height: auto !important;
+  }
 
-    .hexagon .top {
-        width: 0;
-        border-bottom: 15px solid var(--teriary-color) !important;
-        border-left: 26px solid transparent !important;
-        border-right: 26px solid transparent !important;
-        margin: auto;
-    }
-    
-    .hexagon .mid {
-        width: 52px !important;
-        height: 30px !important;
-        background-color: var(--teriary-color);
-        margin: auto;
-    }
-    
-    .hexagon .bottom {
-        width: 0;
-        border-top: 15px solid var(--teriary-color) !important;
-        border-left: 26px solid transparent !important;
-        border-right: 26px solid transparent !important;
-        margin: auto;
-    }
+  body {
+    overflow: auto;
+  }
 
-    input, textarea, .btn-submit {
-        width: 100%;
-        margin: auto 10vw !important;
-    }
+  .about-icon {
+    font-size: 1.5rem !important;
+    vertical-align: top !important;
+    display: inline !important;
+    color: white;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
 
-    .btn-submit {
-        width: 200px;
-        margin: auto !important;
-        background-color: var(--primary-color);
-        border: none;
-        border-radius: 5px;
-    }
+  .hexagon .top {
+    width: 0;
+    border-bottom: 15px solid var(--teriary-color) !important;
+    border-left: 26px solid transparent !important;
+    border-right: 26px solid transparent !important;
+    margin: auto;
+  }
 
+  .hexagon .mid {
+    width: 52px !important;
+    height: 30px !important;
+    background-color: var(--teriary-color);
+    margin: auto;
+  }
+
+  .hexagon .bottom {
+    width: 0;
+    border-top: 15px solid var(--teriary-color) !important;
+    border-left: 26px solid transparent !important;
+    border-right: 26px solid transparent !important;
+    margin: auto;
+  }
+
+  input,
+  textarea,
+  .btn-submit {
+    width: 100%;
+    margin: auto 10vw !important;
+  }
+
+  .btn-submit {
+    width: 200px;
+    margin: auto !important;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+  }
 }
 
 /* iPad Resolution */
-@media screen and (max-width: 1024px) {
-    
-    body {
-        overflow: auto;
-    }
+@media screen and (min-width: 768px) {
+  body {
+    overflow: auto;
+  }
+}
 
+/* HD+ Resolution */
+@media screen and (min-width: 1025px) {
 
+  #about {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    padding: 5% 0 50vh 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(215, 255, 255);
+  }
+
+  .skills {
+    width: 75%;
+  }
 }
