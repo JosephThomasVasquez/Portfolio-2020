@@ -507,3 +507,11 @@ body {
   background: rgb(0, 5, 17);
   font-family: var(--font-raleway);
 }
+
+#footer {
+  padding: 5%;
+}
+
+.footer-text {
+  color: white;
+}

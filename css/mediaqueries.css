@@ -84,6 +84,13 @@
     margin: auto;
   }
 
+  .skill-p {
+    font-size: 20px !important;
+    width: 100%;
+    padding: 8%;
+  }
+
+
   input,
   textarea,
   .btn-submit {
@@ -109,7 +116,6 @@
 
 /* HD+ Resolution */
 @media screen and (min-width: 1025px) {
-
   #about {
     text-align: center;
     font-size: 2rem;
