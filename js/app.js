@@ -8,11 +8,7 @@ const codeBracket = document.querySelectorAll(".code");
 const formSubmit = document.getElementById("submit-form");
 const userInputFields = document.querySelectorAll(".user-input-field");
 
-const contactData = {
-  email: "",
-  subject: "",
-  message: "",
-};
+let contactData = {};
 
 userInputFields.forEach((input) => {
   input.addEventListener("input", (e) => {
@@ -24,9 +20,15 @@ userInputFields.forEach((input) => {
 formSubmit.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  if (contactData !== null) {
-	  console.log('Email is sent!')
-    // sendEmail(contactData);
+  if (contactData) {
+    console.log("Email is sent!", contactData);
+    sendEmail(contactData);
+
+	contactData = {};
+	userInputFields.forEach((input) => {
+		input.value = ';'
+	  });
+	console.log(contactData);
   }
 
   //   const contactData = {
