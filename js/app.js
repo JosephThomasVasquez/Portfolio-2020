@@ -1,23 +1,28 @@
-import sendEmail from './sendEmailForm.js';
+import sendEmail from "./sendEmailForm.js";
 
 const nameElement = document.querySelector(".name");
 const createLetterElement = document.createElement("span");
 const codeBracket = document.querySelectorAll(".code");
 
 // Contact Form
-const formSubmit = document.getElementById("#submit-form");
+const formSubmit = document.getElementById("submit-form");
 
 const handleSubmit = () => {
+  const testContent = {
+    email: "user@email.com",
+    subject: "Did you get this?",
+    message: "This is the message from the email if it was sent.",
+  };
 
-}
+  const { email, subject, message } = testContent;
 
-formSubmit.addEventListener('submit', (e) => {
+  sendEmail(email, subject, message);
+};
 
-	e.preventDefault();
-
-	handleSubmit();
-})
-
+formSubmit.addEventListener("submit", (e) => {
+  e.preventDefault();
+  handleSubmit();
+});
 
 // console.log(codeBracket);
 
@@ -44,4 +49,3 @@ $("a[href^='#']").click(function (e) {
     1000
   );
 });
-
