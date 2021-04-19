@@ -7,21 +7,17 @@ const codeBracket = document.querySelectorAll(".code");
 // Contact Form
 const formSubmit = document.getElementById("submit-form");
 
-const handleSubmit = () => {
+formSubmit.addEventListener("submit", (e) => {
+  e.preventDefault();
   const testContent = {
     email: "user@email.com",
     subject: "Did you get this?",
-    message: "This is the message from the email if it was sent.",
+    message: "This is the message from the email if it was sent."
   };
 
   const { email, subject, message } = testContent;
 
   sendEmail(email, subject, message);
-};
-
-formSubmit.addEventListener("submit", (e) => {
-  e.preventDefault();
-  handleSubmit();
 });
 
 // console.log(codeBracket);
