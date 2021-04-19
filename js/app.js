@@ -1,9 +1,25 @@
-const sendEmailForm = require('./sendEmailForm');
+import sendEmail from './sendEmailForm.js';
 
 const nameElement = document.querySelector(".name");
 const createLetterElement = document.createElement("span");
 const codeBracket = document.querySelectorAll(".code");
-console.log(codeBracket);
+
+// Contact Form
+const formSubmit = document.getElementById("#submit-form");
+
+const handleSubmit = () => {
+
+}
+
+formSubmit.addEventListener('submit', (e) => {
+
+	e.preventDefault();
+
+	handleSubmit();
+})
+
+
+// console.log(codeBracket);
 
 const nameLetters = ["J", "o", "s", "e", "p", "h"];
 

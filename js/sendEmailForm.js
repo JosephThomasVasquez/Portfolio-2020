@@ -18,4 +18,4 @@ const sendFormData = (email, subject, message) => {
     });
 };
 
-module.exports = sendFormData;
+export default sendFormData;
