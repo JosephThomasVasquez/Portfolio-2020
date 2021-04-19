@@ -1,14 +1,13 @@
-const sendFormData = (email, subject, message) => {
-  fetch("https://bq3bjzr5e4.execute-api.us-west-2.amazonaws.com/test/contact", {
+const sendFormData = (data) => {
+
+    console.log(data)
+  
+    fetch("https://bq3bjzr5e4.execute-api.us-west-2.amazonaws.com/test/contact", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
+      "Content-Type": "application/json"
     },
-    body: {
-      email: {email},
-      subject: {subject},
-      message: {message},
-    },
+    body: JSON.stringify(data)
   })
     .then((response) => {
       console.log(response);
@@ -16,6 +15,7 @@ const sendFormData = (email, subject, message) => {
     .catch((error) => {
       console.log("Error", error);
     });
+
 };
 
 export default sendFormData;

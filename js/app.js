@@ -15,9 +15,9 @@ formSubmit.addEventListener("submit", (e) => {
     message: "This is the message from the email if it was sent."
   };
 
-  const { email, subject, message } = testContent;
+//   const { email, subject, message } = testContent;
 
-  sendEmail(email, subject, message);
+  sendEmail(testContent);
 });
 
 // console.log(codeBracket);
