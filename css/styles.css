@@ -446,9 +446,10 @@ a:hover {
 }
 .img-project {
   width: 100%;
-  height: 100%;
   border-radius: 10px;
   background-color: var(--primary-color);
+  min-height: 20vw;
+  max-height: 20vw;
   object-fit: cover;
 }
 
