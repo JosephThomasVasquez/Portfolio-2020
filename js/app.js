@@ -6,21 +6,27 @@ const codeBracket = document.querySelectorAll(".code");
 
 // Contact Form
 const formSubmit = document.getElementById("submit-form");
-const nameField = document.getElementById("name-field");
-const emailField = document.getElementById("email-field");
-const messageField = document.getElementById("message-field");
+const userInputFields = document.querySelectorAll(".user-input-field");
+
+const contactData = {
+  email: "",
+  subject: "",
+  message: "",
+};
+
+userInputFields.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    const { name, value } = e.target;
+    contactData[name] = value;
+  });
+});
 
 formSubmit.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const contactData = {
-    email: "",
-    subject: "",
-    message: "",
-  };
-
-  if (nameField.value !== "" && emailField.value !== '' && messageField.value !== '') {
-	sendEmail(contactData);
+  if (contactData !== null) {
+	  console.log('Email is sent!')
+    // sendEmail(contactData);
   }
 
   //   const contactData = {
@@ -28,9 +34,6 @@ formSubmit.addEventListener("submit", (e) => {
   //     subject: "Did you get this?",
   //     message: "This is the message from the email if it was sent."
   //   };
-
-  //   const { email, subject, message } = testContent;
-
 });
 
 // console.log(codeBracket);
