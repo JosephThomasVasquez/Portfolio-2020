@@ -1,3 +1,5 @@
+const sendEmailForm = require('./sendEmailForm');
+
 const nameElement = document.querySelector(".name");
 const createLetterElement = document.createElement("span");
 const codeBracket = document.querySelectorAll(".code");
