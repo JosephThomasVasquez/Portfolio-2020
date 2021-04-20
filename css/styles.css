@@ -422,16 +422,25 @@ textarea,
   width: 100%;
 }
 
+.form-label {
+  display: block;
+  margin-bottom: -4px;
+  font-size: 0.5em;
+  text-align: left;
+  color: white;
+}
+
 .btn-submit {
-  width: 200px;
+  width: 50%;
+  padding: 5px;
   margin: auto;
+  font-size: 1em;
   background-color: var(--primary-color);
   border: none;
   border-radius: 5px;
 }
 
 .btn-submit:hover {
-  width: 200px;
   margin: auto;
   background-color: var(--secondary-color);
   color: var(--primary-color);
