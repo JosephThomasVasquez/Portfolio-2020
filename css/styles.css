@@ -309,7 +309,7 @@ body {
 
 .overlay-item {
   display: block;
-  max-width: 97%;
+  max-width: 100%;
   opacity: 0;
   border-radius: 10px;
   transition: opacity 1s ease;
@@ -335,6 +335,7 @@ a:hover {
   display: block;
   width: 100%;
   height: 100%;
+  margin: 0 auto;
   position: absolute;
   top: 0;
   background: linear-gradient(
@@ -373,20 +374,20 @@ a:hover {
 .projects-h1 {
   color: var(--secondary-color);
   width: 100%;
-  padding: 1%;
   margin: 0 auto;
   text-align: center;
 }
 
 .row,
-.col {
+.col,
+.col-md-4 {
   padding: 0;
   margin: 0;
 }
 .img-project {
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  padding: 5px;
   border-radius: 10px;
   background-color: var(--primary-color);
   min-height: 20vw;
