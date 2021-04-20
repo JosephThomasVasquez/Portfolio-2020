@@ -309,8 +309,6 @@ body {
 
 .overlay-item {
   display: block;
-  margin-left: 1.5%;
-  
   max-width: 97%;
   opacity: 0;
   border-radius: 10px;
@@ -350,13 +348,6 @@ a:hover {
 }
 
 .grid-item {
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(0, 255, 213, 0),
-    rgba(61, 149, 184, 0)
-  );
-  border-radius: 10px;
   opacity: 1;
   transition: opacity 1s ease;
 }
@@ -393,7 +384,8 @@ a:hover {
   margin: 0;
 }
 .img-project {
-  width: 97%;
+  width: 100%;
+  margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 10px;
   background-color: var(--primary-color);
