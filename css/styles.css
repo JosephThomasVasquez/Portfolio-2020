@@ -373,6 +373,7 @@ a:hover {
 
 .projects-h1 {
   color: var(--secondary-color);
+  padding: 5% 0 10vh 0;
   width: 100%;
   margin: 0 auto;
   text-align: center;
