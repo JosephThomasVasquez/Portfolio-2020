@@ -379,6 +379,15 @@ a:hover {
   text-align: center;
 }
 
+.project-title {
+  color: var(--secondary-color);
+}
+
+.tech {
+  font-family: var(--font-code);
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 .row,
 .col,
 .col-md-4 {
