@@ -271,8 +271,6 @@ body {
 .skill-tech {
   font-weight: bold;
   width: 100%;
-  padding: 1% auto;
-  margin: 0 auto 1% auto;
 }
 
 .skill-p {
@@ -297,7 +295,7 @@ body {
 .skill-tech {
   border: 1px solid rgba(61, 149, 184, 0.25);
   font-size: 1rem;
-  padding: 2% 0;
+  padding: 1em 0;
 }
 
 /* Work Section */
