@@ -90,6 +90,11 @@
     padding: 8%;
   }
 
+  .grid-item {
+    width: 100%;
+    min-height: 50vw;
+  }
+
 }
 
 /* iPad Resolution */
