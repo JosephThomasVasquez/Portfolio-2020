@@ -31,14 +31,7 @@ formSubmit.addEventListener("submit", (e) => {
 	console.log(contactData);
   }
 
-  //   const contactData = {
-  //     email: "user@email.com",
-  //     subject: "Did you get this?",
-  //     message: "This is the message from the email if it was sent."
-  //   };
 });
-
-// console.log(codeBracket);
 
 const nameLetters = ["J", "o", "s", "e", "p", "h"];
 
