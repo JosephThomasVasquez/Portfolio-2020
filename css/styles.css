@@ -214,7 +214,7 @@ body {
   text-align: center;
   font-size: 2rem;
   color: var(--primary-color);
-  padding: 5% 0 50vh 0;
+  padding-top: 5%;
   width: 100%;
   margin: 0;
   height: 100%;
@@ -393,18 +393,9 @@ a:hover {
   margin: 0;
 }
 
-.container {
-  width: 100vw;
-  justify-content: center;
-  align-items: center;
-}
-
 .img-project {
   width: 100%;
-  margin: 0 auto;
-  padding: 5px;
   border-radius: 10px;
-  background-color: var(--primary-color);
   min-height: 20vw;
   max-height: 20vw;
   object-fit: cover;

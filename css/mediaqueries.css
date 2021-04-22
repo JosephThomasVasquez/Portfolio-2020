@@ -95,6 +95,17 @@
     min-height: 50vw;
   }
 
+  .img-project {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    min-height: 20vw;
+    max-height: 20vw;
+    object-fit: cover;
+  }
+
 }
 
 /* iPad Resolution */
