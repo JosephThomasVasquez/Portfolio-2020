@@ -214,7 +214,7 @@ body {
   text-align: center;
   font-size: 2rem;
   color: var(--primary-color);
-  padding: 5% 5%;
+  padding: 5% 0;
   width: 100%;
   margin: 0;
   height: 100%;
@@ -304,7 +304,7 @@ body {
   text-align: center;
   font-size: 2rem;
   color: var(--primary-color);
-  padding: 5% 5%;
+  padding: 5% 0;
   width: 100%;
   margin: 0;
   height: 100%;
@@ -333,6 +333,14 @@ body {
   max-width: 100%;
   opacity: 0;
   border-radius: 10px;
+  transition: opacity 1s ease;
+}
+
+.grid-item {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  opacity: 1;
   transition: opacity 1s ease;
 }
 
@@ -369,10 +377,6 @@ a:hover {
   transition: opacity 1s ease;
 }
 
-.grid-item {
-  opacity: 1;
-  transition: opacity 1s ease;
-}
 
 .twitch {
   animation-name: floater;
