@@ -113,6 +113,12 @@
   body {
     overflow: auto;
   }
+
+  .skill-p {
+    font-size: 16px !important;
+    width: 100%;
+    padding: 8%;
+  }
 }
 
 /* HD+ Resolution */
