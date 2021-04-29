@@ -134,6 +134,10 @@ body {
   font-weight: 200;
 }
 
+.pipe {
+  color: var(--secondary-color);
+}
+
 .code {
   font-family: var(--font-code);
   font-size: 3vw;
