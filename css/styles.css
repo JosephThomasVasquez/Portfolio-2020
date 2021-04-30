@@ -383,7 +383,6 @@ a:hover {
   transition: opacity 1s ease;
 }
 
-
 .twitch {
   animation-name: floater;
   animation-duration: 2s;
@@ -398,7 +397,9 @@ a:hover {
 
 .row,
 .col,
-.col-md-4 {
+.col-md-4,
+.col-md-6,
+.col-md-12 {
   padding: 0;
   margin: 0;
 }
