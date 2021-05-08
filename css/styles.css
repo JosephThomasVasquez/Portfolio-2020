@@ -479,3 +479,8 @@ textarea,
 .footer-text {
   color: white;
 }
+
+.social-icon {
+  font-size: 3em;
+  margin: 0 5px;
+}
