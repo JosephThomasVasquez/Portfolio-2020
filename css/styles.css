@@ -418,10 +418,10 @@ a:hover {
   text-align: center;
   font-size: 2rem;
   color: var(--primary-color);
-  padding: 5% 0 50vh 0;
+  padding: 5% 0 20vh 0;
   width: 100%;
   margin: 0;
-  height: 50vh;
+  height: 10vh;
   background-color: var(--teriary-color);
 }
 
