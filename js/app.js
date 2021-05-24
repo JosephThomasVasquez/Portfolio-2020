@@ -24,7 +24,8 @@ formSubmit.addEventListener("submit", (e) => {
     const contactH1 = document.querySelector(".contact-h1");
     const createDiv = document.createElement("div");
     createDiv.innerText = `I got your message ${contactData.name}. I will get back to you as soon as I am able.`;
-    contactH1.appendChild(createDiv);
+    createDiv.classList.add('contact-name');
+    contactH1.parentNode.insertBefore(createDiv, contactH1.nextSibling);
     console.log("Email is sent!", contactData);
     sendEmail(contactData);
 
