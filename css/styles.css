@@ -465,6 +465,10 @@ textarea,
   border-radius: 5px;
 }
 
+.contact-name {
+  color: var(--secondary-color);
+}
+
 .fader {
   animation-name: stretchIn;
   animation-duration: 5s;
