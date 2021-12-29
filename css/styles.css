@@ -11,9 +11,6 @@
   --primary-2-color: rgba(0, 14, 48, 1);
   --secondary-color: rgb(0, 255, 213);
   --teriary-color: rgb(61, 149, 184);
-  /* --primary-color: rgb(0, 46, 83);
-    --secondary-color: aqua;
-    --teriary-color: rgb(61, 139, 184); */
 }
 
 html {
@@ -334,21 +331,21 @@ body {
   width: 100%;
 }
 
-.overlay-item {
+/* .overlay-item {
   display: block;
   max-width: 100%;
   opacity: 0;
   border-radius: 10px;
   transition: opacity 1s ease;
-}
+} */
 
-.grid-item {
+/* .grid-item {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   opacity: 1;
   transition: opacity 1s ease;
-}
+} */
 
 a {
   text-decoration: none !important;
@@ -358,15 +355,8 @@ a {
 a:hover {
   color: var(--secondary-color);
 }
-.project-links {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2vw;
-  transform: translate(-50%, -50%);
-}
 
-.grid-item:hover .overlay-item {
+/* .grid-item:hover .overlay-item {
   display: block;
   width: 100%;
   height: 100%;
@@ -381,7 +371,7 @@ a:hover {
     no-repeat center;
   opacity: 1;
   transition: opacity 1s ease;
-}
+} */
 
 .twitch {
   animation-name: floater;
@@ -407,8 +397,8 @@ a:hover {
 .img-project {
   width: 100%;
   border-radius: 10px;
-  min-height: 20vw;
-  max-height: 20vw;
+  min-height: 300px;
+  max-height: 330px;
   object-fit: cover;
 }
 

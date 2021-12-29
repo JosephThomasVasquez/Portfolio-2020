@@ -52,6 +52,14 @@
     overflow: auto;
   }
 
+  .gh-icon {
+    font-size: 5vw;
+  }
+
+  .project-links {
+    font-size: 5vw;
+  }
+
   .about-icon {
     font-size: 1.5rem !important;
     vertical-align: top !important;
@@ -92,7 +100,7 @@
 
   .grid-item {
     width: 100%;
-    min-height: 50vw;
+    min-height: 0;
   }
 
   .img-project {
@@ -105,7 +113,6 @@
     max-height: 20vw;
     object-fit: cover;
   }
-
 }
 
 /* iPad Resolution */
@@ -114,9 +121,13 @@
     overflow: auto;
   }
 
-  /* .last-skill {
-    margin: 0 25% !important;
-  } */
+  .gh-icon {
+    font-size: 2vw;
+  }
+
+  .project-links {
+    font-size: 2vw;
+  }
 
   .skill-p {
     font-size: 16px !important;
